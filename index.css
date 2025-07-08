@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+}
+
+h2 {
+    padding-bottom: 1.5rem;
+}
+
+div {
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
