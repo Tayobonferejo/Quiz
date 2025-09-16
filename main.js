@@ -1,3 +1,4 @@
+// internally invoke function 
 (function(){
     const question = document.getElementsByName("language");
     let answer;
