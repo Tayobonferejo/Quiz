@@ -4,7 +4,7 @@
     let answer;
 
     document.getElementById('form').addEventListener("submit",function(event){
-        event.preventDefault();
+        event.preventDefault(); // prevent default 
 
         for(let i = 0; i < question.length; i++){
         if(question[i].checked){
